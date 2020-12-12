@@ -9,11 +9,23 @@ public class Work {
         Worker Mehanik = new Worker("Mihalich",5.4f,28);
         System.out.println(Mehanik);
 
-        Mehanik.worked();
+        Mehanik.ZP = 0;
 
         Scanner in = new Scanner(System.in);
         System.out.print("Input a command:");
-        int num = in.nextInt();
+        String num = in.nextInt();
+        for (num == "need work" +  + Mehanik.ZP++) {
+            Mehanik.worked(); }
+        while (num != "need work") {
+            System.out.println("command not recognized, need new command input ");
+        }
+
+
+
+
+
+
+        in.close();
 
 
 
