@@ -29,8 +29,6 @@ public class Worker {
                 "name: '" + name + '\'' +
                 ", obrazowanie: '" + obrazowanie + '\'' +
                 ", age: " + age;
-
-
     }
 
 
