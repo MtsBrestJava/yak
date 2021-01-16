@@ -23,6 +23,14 @@ public class Worker {
 
     }
 
+    @Override
+    public String toString() {
+        return "Worker - " +
+                "name: '" + name + '\'' +
+                ", obrazowanie: '" + obrazowanie + '\'' +
+                ", age: " + age;
+
+
     class ZP {
 
         int kolvo;
@@ -31,9 +39,11 @@ public class Worker {
 
         public void proverZP (){
             if (ZP = 300;) {
-            System.out.println("kolvo ="+ kolvo + "ZP max, need min");
-        } else { if (ZP < 300){
-                System.out.println("ZP norm");
+            System.out.println("kolvo ="+ kolvo + "ZP max, need min");}
+         else {
+                if (ZP < 300) {
+                    System.out.println("ZP norm");
+                }
             }
 
 
