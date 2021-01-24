@@ -13,13 +13,28 @@ public class Work {
         //ArrayList<Worker> zpSTO = new ArrayList();
 
         Worker Mehanik = new Worker("Mihalich",5.4f,28);
+
+        class ZP {
+
+            private int kolvo;
+            kolvo = Mehanik.ZP;
+
+            public void proverZP () {
+                if (Mehanik.ZP == 300;) {
+                    System.out.println("kolvo ="+ kolvo + "ZP max, need min");}
+         else if (ZP < 300) {
+                    System.out.println("ZP norm");
+                }
+
+        ZP MehanikZP = new ZP ();
+
         System.out.println(Mehanik);
 
         Scanner in = new Scanner(System.in);
         System.out.print("Input a ZP:");
         int ZP = in.nextInt();
 
-        for (ZP != 0; ZP > 0; Mehanik.ZP = ZP) {
+        for (0 != ZP; ZP > 0; Mehanik.ZP = ZP) {
             Mehanik.worked();
             System.out.println("ZP: Mehanik = " + Mehanik.ZP); }
         in.close();
@@ -31,7 +46,20 @@ public class Work {
 
         worker.close();
 
+        class ZP {
 
+        private int kolvo;
+        kolvo = Mehanik.ZP;
+
+        public void proverZP () {
+           if (Mehanik.ZP == 300;) {
+              System.out.println("kolvo ="+ kolvo + "ZP max, need min");}
+
+            else if (ZP < 300) {
+                            System.out.println("ZP norm");
+                        }
+
+            ZP mehanikZP = new ZP ();
 
     }
 }
